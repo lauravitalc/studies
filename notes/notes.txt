@@ -1,0 +1,20 @@
+Typescript it's a development tool. The project still runs JS. 
+It helps you to write better code with less problems, more scalable and understandable.
+
+What typescript does:
+
+Static Checking - Check my code as I try to write it. Analyze the code as we type.
+
+How it works:
+
+You write the typescript code, and that code is transpiled into Javascript.
+
+Types:
+
+Number - String - Boolean
+Null - Unefined - Void
+Object - Array - Tuples
+Any 
+
+Typescript can detected the type you want (Be careful with functions.)
+Any - When you don't specify a type, typescript can't infer it from context, the compiler will typically default to any.
