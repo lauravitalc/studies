@@ -47,3 +47,5 @@ class SubUser extends User {
 const laura = new User('laura@gmail.com','laura');
 
 // laura.deleteToken()
+
+// protected x private
