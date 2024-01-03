@@ -21,9 +21,9 @@ export class ProductListComponent {
     return this.product.price - (this.product.price * this.product.discount / 100) 
   }
 
-  onNameChange($event: any){
-    // this.name = $event.target.value;
-    // console.log($event.target.value);
+  onNameChange(event: any){
+    // this.name = event.target.value;
+    // console.log(event.target.value);
   }
 
   decrementCartValue(){
