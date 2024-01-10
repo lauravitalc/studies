@@ -8,6 +8,12 @@ import { Component } from '@angular/core';
 
 export class ContainerComponent {
   listOfString: string[] = ['Laura', 'Gabriel', 'Ayrton', 'Ulysses', 'Beto'];
+
+  searchText: string = '';
+
+  setSearchText(value: string){
+    this.searchText = value;
+  }
 }
 
 // export class ProductListComponent {
